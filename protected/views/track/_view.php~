@@ -1,0 +1,11 @@
+
+
+
+<tr>
+<td><?php echo $data->url ?></td>
+<td><?php echo $data->reportID ?></td>
+<td><?php echo $data->typeID ?></td>
+<td><?php echo $data->userID ?></td>
+<td><?php echo date_format(new DateTime($data->dateStamped), 'l jS F Y'); ?></small>
+</tr>
+        

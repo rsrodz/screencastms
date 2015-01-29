@@ -1,0 +1,9 @@
+<div class="space">&nbsp;</div>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1><?php echo Yii::app()->name; ?></h1>
+                <p>Welcome to MD Cast, a site for collaborating and sharing topics presented in morning report, grand rounds, and other lectures.  Keep track of upcoming reports, review past reports, discuss past reports, add "one pagers" to past reports... these are all ways this site aims to increase involvement with and enthusiasm towards our goals as life long learners.  Enjoy!  </p>
+                <p><?php echo CHtml::link('Login now &raquo;',array('site/login'),array('class'=>'btn btn-primary btn-lg', 'role'=>'button')) ?></p>
+            </div>
+        </div>

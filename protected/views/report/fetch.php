@@ -1,0 +1,1 @@
+jwplayer("videoElement").setup({file: "<?php echo $filePath?>",height: "450px",width: "600px"});
